@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.rest.test.MainTest" time="0.837" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/avtarbadwal/Desktop/Projects/RestAssuredTest/target/test-classes:/Users/avtarbadwal/Desktop/Projects/RestAssuredTest/target/classes:/Users/avtarbadwal/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/avtarbadwal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/avtarbadwal/.m2/repository/io/rest-assured/rest-assured/5.3.1/rest-assured-5.3.1.jar:/Users/avtarbadwal/.m2/repository/org/apache/groovy/groovy/4.0.11/groovy-4.0.11.jar:/Users/avtarbadwal/.m2/repository/org/apache/groovy/groovy-xml/4.0.11/groovy-xml-4.0.11.jar:/Users/avtarbadwal/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/avtarbadwal/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/avtarbadwal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/avtarbadwal/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/avtarbadwal/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/avtarbadwal/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/avtarbadwal/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/avtarbadwal/.m2/repository/io/rest-assured/json-path/5.3.1/json-path-5.3.1.jar:/Users/avtarbadwal/.m2/repository/org/apache/groovy/groovy-json/4.0.11/groovy-json-4.0.11.jar:/Users/avtarbadwal/.m2/repository/io/rest-assured/rest-assured-common/5.3.1/rest-assured-common-5.3.1.jar:/Users/avtarbadwal/.m2/repository/io/rest-assured/xml-path/5.3.1/xml-path-5.3.1.jar:/Users/avtarbadwal/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/avtarbadwal/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/avtarbadwal/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/avtarbadwal/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/avtarbadwal/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/avtarbadwal/.m2/repository/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/avtarbadwal/Desktop/Projects/RestAssuredTest/target/surefire/surefirebooter-20250213113131323_3.jar /Users/avtarbadwal/Desktop/Projects/RestAssuredTest/target/surefire 2025-02-13T11-31-31_277-jvmRun1 surefire-20250213113131323_1tmp surefire_0-20250213113131323_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/avtarbadwal/Desktop/Projects/RestAssuredTest/target/test-classes:/Users/avtarbadwal/Desktop/Projects/RestAssuredTest/target/classes:/Users/avtarbadwal/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/avtarbadwal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/avtarbadwal/.m2/repository/io/rest-assured/rest-assured/5.3.1/rest-assured-5.3.1.jar:/Users/avtarbadwal/.m2/repository/org/apache/groovy/groovy/4.0.11/groovy-4.0.11.jar:/Users/avtarbadwal/.m2/repository/org/apache/groovy/groovy-xml/4.0.11/groovy-xml-4.0.11.jar:/Users/avtarbadwal/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/avtarbadwal/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/avtarbadwal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/avtarbadwal/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/avtarbadwal/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/avtarbadwal/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/avtarbadwal/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/avtarbadwal/.m2/repository/io/rest-assured/json-path/5.3.1/json-path-5.3.1.jar:/Users/avtarbadwal/.m2/repository/org/apache/groovy/groovy-json/4.0.11/groovy-json-4.0.11.jar:/Users/avtarbadwal/.m2/repository/io/rest-assured/rest-assured-common/5.3.1/rest-assured-common-5.3.1.jar:/Users/avtarbadwal/.m2/repository/io/rest-assured/xml-path/5.3.1/xml-path-5.3.1.jar:/Users/avtarbadwal/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/avtarbadwal/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/avtarbadwal/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/avtarbadwal/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/avtarbadwal/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/avtarbadwal/.m2/repository/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/avtarbadwal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-09-17"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/avtarbadwal/Desktop/Projects/RestAssuredTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/avtarbadwal/Desktop/Projects/RestAssuredTest/target/surefire/surefirebooter-20250213113131323_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23"/>
+    <property name="user.name" value="avtarbadwal"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/avtarbadwal/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/0p/w3hd5yx54h5dlqq1wzj23qjc0000gn/T/"/>
+    <property name="java.version" value="23"/>
+    <property name="user.dir" value="/Users/avtarbadwal/Desktop/Projects/RestAssuredTest"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/avtarbadwal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="verifyStatusCode" classname="com.rest.test.MainTest" time="0.637">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	http://localhost:8082/books
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic dXNlcjpwYXNzd29yZA==
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Response Status Code: 200
+[
+    {
+        "id": 1,
+        "name": "A Guide to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 2,
+        "name": "The Life-Changing Magic of Tidying Up",
+        "author": "Marie Kondo",
+        "price": 9.69
+    },
+    {
+        "id": 3,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "price": 47.99
+    }
+]
+Response Body: [
+    {
+        "id": 1,
+        "name": "A Guide to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 2,
+        "name": "The Life-Changing Magic of Tidying Up",
+        "author": "Marie Kondo",
+        "price": 9.69
+    },
+    {
+        "id": 3,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "price": 47.99
+    }
+]
+Response Headers: Set-Cookie=JSESSIONID=4887392890A4BBA8431929CDA76171C1; Path=/; HttpOnly
+X-Content-Type-Options=nosniff
+X-XSS-Protection=1; mode=block
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json;charset=UTF-8
+Transfer-Encoding=chunked
+Date=Thu, 13 Feb 2025 16:31:32 GMT
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+</testsuite>
