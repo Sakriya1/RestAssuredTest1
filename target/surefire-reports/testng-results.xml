@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-21T14:07:53 EDT" name="RestAssuredTestSuite" finished-at="2025-03-21T14:07:55 EDT" duration-ms="2538">
+  <suite started-at="2025-03-21T14:12:29 EDT" name="RestAssuredTestSuite" finished-at="2025-03-21T14:12:32 EDT" duration-ms="2563">
     <groups>
     </groups>
-    <test started-at="2025-03-21T14:07:53 EDT" name="RestAssuredTests" finished-at="2025-03-21T14:07:55 EDT" duration-ms="2538">
+    <test started-at="2025-03-21T14:12:29 EDT" name="RestAssuredTests" finished-at="2025-03-21T14:12:32 EDT" duration-ms="2563">
       <class name="com.test.MainTest">
-        <test-method signature="verifyStatusCode()[pri:0, instance:com.test.MainTest@3daa422a]" started-at="2025-03-21T14:07:53 EDT" name="verifyStatusCode" finished-at="2025-03-21T14:07:55 EDT" duration-ms="2470" status="PASS">
+        <test-method signature="verifyStatusCode()[pri:0, instance:com.test.MainTest@3daa422a]" started-at="2025-03-21T14:12:29 EDT" name="verifyStatusCode" finished-at="2025-03-21T14:12:32 EDT" duration-ms="2485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStatusCode -->

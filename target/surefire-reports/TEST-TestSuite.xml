@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.292" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.287" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\sakri\AppData\Local\Temp\surefire2105379214859356637\surefirebooter-20250321140751818_3.jar C:\Users\sakri\AppData\Local\Temp\surefire2105379214859356637 2025-03-21T14-07-51_562-jvmRun1 surefire-20250321140751818_1tmp surefire_0-20250321140751818_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\sakri\AppData\Local\Temp\surefire5948937103731902098\surefirebooter-20250321141228549_3.jar C:\Users\sakri\AppData\Local\Temp\surefire5948937103731902098 2025-03-21T14-12-28_316-jvmRun1 surefire-20250321141228549_1tmp surefire_0-20250321141228549_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\RestAssuredTest1\target\test-classes;C:\RestAssuredTest1\target\classes;C:\Users\sakri\.m2\repository\org\slf4j\slf4j-simple\2.0.7\slf4j-simple-2.0.7.jar;C:\Users\sakri\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\sakri\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\sakri\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\sakri\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\sakri\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\sakri\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\sakri\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sakri\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\sakri\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\sakri\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\sakri\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sakri\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\sakri\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\sakri\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\sakri\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\sakri\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\sakri\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\3.0.0-beta2\log4j-slf4j-impl-3.0.0-beta2.jar;C:\Users\sakri\.m2\repository\org\apache\logging\log4j\log4j-api\3.0.0-beta2\log4j-api-3.0.0-beta2.jar;C:\Users\sakri\.m2\repository\org\apache\logging\log4j\log4j-core\3.0.0-beta2\log4j-core-3.0.0-beta2.jar;C:\Users\sakri\.m2\repository\org\apache\logging\log4j\log4j-plugins\3.0.0-beta2\log4j-plugins-3.0.0-beta2.jar;C:\Users\sakri\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\sakri\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\sakri\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\sakri\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar;C:\Users\sakri\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\sakri\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\sakri\AppData\Local\Temp\surefire2105379214859356637\surefirebooter-20250321140751818_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\sakri\AppData\Local\Temp\surefire5948937103731902098\surefirebooter-20250321141228549_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="verifyStatusCode" classname="com.test.MainTest" time="2.471">
+  <testcase name="verifyStatusCode" classname="com.test.MainTest" time="2.495">
     <system-out><![CDATA[Request method:	GET
 Request URI:	http://localhost:8080/books
 Proxy:			<none>
@@ -376,7 +376,7 @@ Response Body: [
         "price": 15.41
     }
 ]
-Response Headers: Set-Cookie=JSESSIONID=909584CF84CAA17ED2C1C8EA2A884D61; Path=/; HttpOnly
+Response Headers: Set-Cookie=JSESSIONID=E27FFD4BCE63BCD9FF5C6C8883B6F160; Path=/; HttpOnly
 X-Content-Type-Options=nosniff
 X-XSS-Protection=1; mode=block
 Cache-Control=no-cache, no-store, max-age=0, must-revalidate
@@ -385,7 +385,7 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json;charset=UTF-8
 Transfer-Encoding=chunked
-Date=Fri, 21 Mar 2025 18:07:55 GMT
+Date=Fri, 21 Mar 2025 18:12:32 GMT
 ]]></system-out>
   </testcase>
 </testsuite>
