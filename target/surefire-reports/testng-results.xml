@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-13T11:31:31 EST" name="Surefire suite" finished-at="2025-02-13T11:31:32 EST" duration-ms="649">
+  <suite started-at="2025-03-21T14:07:53 EDT" name="RestAssuredTestSuite" finished-at="2025-03-21T14:07:55 EDT" duration-ms="2538">
     <groups>
     </groups>
-    <test started-at="2025-02-13T11:31:31 EST" name="Surefire test" finished-at="2025-02-13T11:31:32 EST" duration-ms="649">
-      <class name="com.rest.test.MainTest">
-        <test-method signature="verifyStatusCode()[pri:0, instance:com.rest.test.MainTest@258e2e41]" started-at="2025-02-13T11:31:31 EST" name="verifyStatusCode" finished-at="2025-02-13T11:31:32 EST" duration-ms="636" status="PASS">
+    <test started-at="2025-03-21T14:07:53 EDT" name="RestAssuredTests" finished-at="2025-03-21T14:07:55 EDT" duration-ms="2538">
+      <class name="com.test.MainTest">
+        <test-method signature="verifyStatusCode()[pri:0, instance:com.test.MainTest@3daa422a]" started-at="2025-03-21T14:07:53 EDT" name="verifyStatusCode" finished-at="2025-03-21T14:07:55 EDT" duration-ms="2470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStatusCode -->
-      </class> <!-- com.rest.test.MainTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+      </class> <!-- com.test.MainTest -->
+    </test> <!-- RestAssuredTests -->
+  </suite> <!-- RestAssuredTestSuite -->
 </testng-results>

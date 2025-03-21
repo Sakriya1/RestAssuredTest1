@@ -4,6 +4,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
@@ -19,7 +20,6 @@ public class MainTest {
 
     @Test
     public void verifyStatusCode() {
-
         // Base URL of the API
         RestAssured.baseURI = "http://localhost:8080/books";
 
@@ -48,7 +48,7 @@ public class MainTest {
 
         // Validate status line
         String actualStatusLine = response.getStatusLine().trim(); // Trim the actual status line
-        assertEquals(actualStatusLine, "HTTP/1.1 200"); // Compare with the expected value
+        Assert.assertEquals(actualStatusLine, "HTTP/1.1 200"); // Compare with the expected value
     }
 @Test
     public void testCreateBook() {

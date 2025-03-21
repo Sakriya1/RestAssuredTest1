@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RestAssuredTestSuite">
+    <test name="RestAssuredTests">
+        <classes>
+            <class name="com.test.MainTest"/> <!-- Replace with your test class name -->
+        </classes>
+    </test>
+</suite>
